@@ -14,7 +14,7 @@ const Filter = ({ filterTitle, filterRating, setFilterTitle, setFilterRating }) 
       placeholder="Filter by rating"
       value={filterRating}
       onChange={(e) => setFilterRating(e.target.value)}
-      min="0"
+      min="1"
       max="5"
     />
   </div>
